@@ -20,7 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'obj_bridge = carla_autoware_obj_bridge.obj_bridge:main',
+            'autoware_obj_bridge = carla_autoware_obj_bridge.autoware_obj_bridge:main',
             'carla_obj_bridge = carla_autoware_obj_bridge.carla_obj_bridge:main'
         ],
     },
